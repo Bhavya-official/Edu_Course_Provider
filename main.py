@@ -3,7 +3,6 @@ from flask_login import LoginManager, current_user, UserMixin,login_required, lo
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_gravatar import Gravatar
-import gunicorn
 import os
 
 app = Flask(__name__)
